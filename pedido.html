@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo.css">
+    <title>BurgerX</title>
+
+</head>
+
+<body>
+
+    <header>
+
+        <nav class="barraSup">
+            <ul>
+
+                <li><div class="boton"><a href="pedido.html">Pedido</a> </div></li>
+                <li><div class="boton"><a href="menu.html">Menu</a></div></li>
+                <li><div class="logo"><a href="index.html"><img src="img/logo.png"></a></div></li>
+                <li><a href="promos.html">Promociones</a></li>
+                <li><a href="locales.html">Locales</a></li>
+                               
+            </ul>
+        </nav>
+
+    </header>
+
+    <main id="grid">
+        <div class="imgPromo"><img src="img/promo.jpg" alt=""></div>
+        <div class="listaPedido">
+            <div class="opciones">Pedido:
+                <div>Burguer:
+                    <select name="Burgerx">
+                        <option value="B01">Burguer01</option>
+                        <option value="B02">Burguer02</option>
+                        <option value="B03">Burguer03</option>
+                    </select>
+                </div>
+                <div>Papas:
+                    <select name="Papax">
+                        <option value="P01">Papa01</option>
+                        <option value="P02">Papa02</option>
+                        <option value="P03">Papa03</option>
+                        <option value="No">No</option>
+                    </select>
+                </div>
+                <div>Bebidas:
+                    <select name="Burguerx">
+                        <option value="C01">Bebida01</option>
+                        <option value="C02">Bebida02</option>
+                        <option value="C03">Bebida03</option>
+                        <option value="No">No</option>
+                    </select>
+                </div>
+                <div>
+                    <a>Condimentos:</a>
+                    <a>Si</a>
+                    <input type="radio" name="Condimentos" value="si" />
+                    <a>No</a>
+                    <input type="radio" name="Condimentos" value="no" />
+                    <br>
+                </div>
+            </div>
+        
+        </div>
+        
+        
+        <div class="delivery">
+            
+            <label for="NombreApellido">Nombre:</label>
+                <input type="text" name="NombreApellido" id="NombreApellido" placeholder="Ponga su nombre">
+                <label for="Direccion">Direccion</label>
+                <input type="text" name="Direccion" id="Direccion" placeholder="Ingresar direccions">
+        </div>
+
+        
+        <div class="total">Total:   $$$</div>
+        
+        
+        <div class="confirmar"><a>Confirmar</a>
+            <div>
+                <input type="submit" value="Enviar formulario"/>
+                <input type="reset" value="Limpiar formulario"/>
+            </div>
+        </div>
+
+        
+
+    </main>
+    
+    <footer>
+        <img src="img/facebook.png">
+        <img src="img/instagram.png">
+    </footer> 
+
+</body>
+
+</html>
